@@ -1,0 +1,4 @@
+build:
+
+  ci:
+    - docker build -t awscli:$BRANCH.BUILD_NUMBER .
